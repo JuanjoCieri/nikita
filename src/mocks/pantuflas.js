@@ -11,11 +11,14 @@ const pantuflas = [
   },
   {
     id: 2,
+    categoria: "pantufla",
     nombre: "Pantuflas Fox [Gris Claro]",
-    imagen: "https://d3ugyf2ht6aenh.cloudfront.net/stores/633/986/products/04c962e8-112a-44bc-917b-4e7df4c5fef41-c8ecd9b324f74960fc16529358876091-1024-1024.jpeg",
-    precio: "9.290",
-    descripción:
+    imagen: ["https://d3ugyf2ht6aenh.cloudfront.net/stores/633/986/products/04c962e8-112a-44bc-917b-4e7df4c5fef41-c8ecd9b324f74960fc16529358876091-1024-1024.jpeg", "https://d3ugyf2ht6aenh.cloudfront.net/stores/633/986/products/2f8262dd-83dc-43a3-9897-4dde7934ca451-d156406b9cfb5bc62e16130974077770-1024-1024.jpeg", "https://d3ugyf2ht6aenh.cloudfront.net/stores/633/986/products/7175e909-dc87-4cff-98da-172b1782bbf21-bd6e43ea9d3f2d3eb916491190580585-1024-1024.jpeg"],
+    precio: 9790.00,
+    detalle:
       "BESTSELLER. NIKITA Fox color gris. Con detalles completamente bordados y orejitas.  Suela antideslizante y súper acolchonada. Textura mega suave y calida ya que están confeccionadas en polar soft. Amadas, te. van a encantar :).",
+      stock: 2,
+      talle: ["XS", "S", "M", "L", "XL"]
   },
   {
     id: 3,
